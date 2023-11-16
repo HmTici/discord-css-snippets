@@ -1,7 +1,7 @@
 # Rounded (user panel, simplier user pop out, rounded spotify player)
 
 like the title says <br>
-I remove the things that I dont use in the user pop out, so it's basically a picker between dnd and invisible status
++it removes things I dont use from the user pop out, so it's basically a picker between dnd and invisible status but u can easily tweak it so u get whatever u're using back
 
 ## Importing
 
