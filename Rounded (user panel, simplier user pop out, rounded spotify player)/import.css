@@ -1,0 +1,88 @@
+/* user panel + spotify activity rounded +  vc connected */
+[class^='sidebar_'] [class^='panels_'] [class^='container_'],
+[class^='sidebar_'] [class^='panels_'] [class^='panel_'] {
+  background-color: var(--background-secondary-alt);
+  border-radius: 20px;
+  margin: 8px;
+}
+[class^='sidebar_']
+  [class^='panels_']
+  [class^='container_']
+  [class^='avatarWrapper_']
+  + [class^='flex_'] {
+  margin-left: -10px;
+}
+#vc-spotify-player {
+  border-radius: 20px;
+  margin-bottom: 5px;
+  border-bottom: 0;
+  background-color: var(--background-secondary-alt);
+  margin: 8px;
+}
+.panels__58331 {
+  background-color: unset;
+}
+#vc-spotify-album-image {
+  border-radius: 16px;
+  transition: 300ms ease-in-out;
+}
+#vc-spotify-album-image:hover {
+  transform: scale(1.25);
+}
+.withTagAsButton_cc125f:hover,
+.withTagless__98b7d:hover {
+  border-radius: 16px;
+}
+
+.actionButtons_b58cbb > button,
+.button__66e8c {
+  border-radius: 20px;
+}
+
+.contents_fb6220 {
+  display: flex;
+}
+
+/* user pop out */
+[class^='accountProfilePopoutWrapper'] {
+  left: -8px;
+  margin: auto;
+}
+[class^='accountProfilePopoutWrapper'] [class*='userPopout'] {
+  margin: 0;
+  width: 226px;
+  height: 125px;
+  border-radius: 20px;
+  justify-content: center;
+}
+[class^='accountProfilePopoutWrapper'] .section__6f61e,
+.userPopoutInner_f545a3:has(#account) > *:not(:has(#account)),
+.userPopoutOverlayBackground_d8afa4:has(#account) > *:not(#account) {
+  display: none;
+}
+#account-switch-account,
+.separator__18122,
+#account-set-custom-status {
+  display: none;
+}
+.colorDefault__0b482:active:not(.hideInteraction__2790e),
+#account-status-picker,
+#account-set-custom-status,
+#account-devmode-copy-id-547533758069342249,
+#account .submenu_acf564,
+#account-status-picker--dnd,
+#account-status-picker--invisible {
+  border-radius: 26px;
+}
+#account .submenu_acf564 {
+  width: 226px;
+  height: 125px;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 56px;
+}
+.description_ea6680,
+#account-status-picker--online,
+#account-status-picker--idle {
+  display: none;
+}
