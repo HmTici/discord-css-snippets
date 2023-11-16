@@ -6,13 +6,15 @@ I remove the things that I dont use in the user pop out, so it's basically a pic
 ## Importing
 
 ```css
-@import url('');
+@import url('https://raw.githubusercontent.com/HmTici/discord-css-snippets/main/Rounded%20(user%20panel%2C%20simplier%20user%20pop%20out%2C%20rounded%20spotify%20player)/import.css');
 ```
 
 ### Screenshots
 
-![image](/screenshots/all.png)
-![image](/screenshots/status-picker-expand.png)
+![image](screenshots/all.png)
+![image](screenshots/status-picker-expand.png)
+
+
 
 ### Contact
 
